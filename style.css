@@ -1,15 +1,17 @@
 body {
     background: rgb(138,81,142);
     background: linear-gradient(311deg, rgba(138,81,142,1) 0%, rgba(49,42,138,1) 30%, rgba(131,53,170,1) 78%, rgba(58,134,215,1) 100%);
-    margin: 1rem;
+    margin: 10vh 8vh 0 8vh;
+    height: 90vh;
 }
 #appContainer {
     background: rgb(242, 222, 243, 0.3);
     border-radius: 0.5rem;
     padding: 0.5rem 2rem;
-    width: 80%;
+    max-width: 60rem;
     margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
 }
 #firstSection {
     color: rgb(42, 10, 71);
@@ -20,6 +22,7 @@ body {
     -moz-user-select: none;     
     -ms-user-select: none;   
     user-select: none;   
+    flex-shrink: 2;
 }
 #header {
     font-size: 30px;
@@ -114,6 +117,9 @@ h1 {
     right: 2px;
     bottom: 17px;
 }
+#secondSection {
+    flex-shrink: 1;
+}
 #thirdSection {
     font-size: 17px;
     text-align: center;
@@ -122,6 +128,7 @@ h1 {
     border-radius: 0.5rem;
     margin: 1rem auto;
     padding: 0.5rem;
+    width: 60%;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
     -webkit-touch-callout: none; 
@@ -130,6 +137,7 @@ h1 {
     -moz-user-select: none;     
     -ms-user-select: none;   
     user-select: none;   
+    flex-shrink: 3;
 }
 p {
     margin: 0;
