@@ -1,7 +1,7 @@
 body {
     background: rgb(138,81,142);
     background: linear-gradient(311deg, rgba(138,81,142,1) 0%, rgba(49,42,138,1) 30%, rgba(131,53,170,1) 78%, rgba(58,134,215,1) 100%);
-    margin: 10vh 8vh 0 8vh;
+    margin: 10vh 1rem 0 1rem;
     height: 90vh;
 }
 #appContainer {
@@ -121,7 +121,7 @@ h1 {
     flex-shrink: 1;
 }
 #thirdSection {
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     color: rgb(61, 20, 100);
     background-color: rgb(198, 225, 236, 0.2);
