@@ -1,0 +1,138 @@
+body {
+    background: rgb(138,81,142);
+    background: linear-gradient(311deg, rgba(138,81,142,1) 0%, rgba(49,42,138,1) 30%, rgba(131,53,170,1) 78%, rgba(58,134,215,1) 100%);
+    margin: 1rem;
+}
+#appContainer {
+    background: rgb(242, 222, 243, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#firstSection {
+    color: rgb(42, 10, 71);
+    text-align: center;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;   
+    user-select: none;   
+}
+#header {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;   
+    user-select: none;   
+}
+h1 {
+    margin: 1.5rem 0;
+    font-size: 30px;
+}
+#taskInput {
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+    width: 80%;
+    margin: 0.5rem auto;
+    outline: none;
+    background-color: rgb(198, 225, 236);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 16px;
+}
+#taskInput::placeholder {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(137, 126, 148);
+}
+#addButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    background-color: rgb(198, 225, 236);
+}
+#addButton:hover {
+    background-color: rgb(168, 216, 235);
+    color: rgb(61, 20, 100);
+    transition: all 0.3s ease;
+}
+.tasks {
+    background-color: rgb(198, 225, 236);
+    color: rgb(42, 14, 68);
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem auto;
+    font-size: 16px;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.tasks:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(168, 216, 235);
+}
+.taskContent {
+    display: block;
+    text-align: justify;
+    padding: 0 3rem 0rem 1.5rem;
+
+}
+.checkTask {
+    float: left;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+.deleteButton {
+    float: right;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 17px;
+    right: 10px;
+    cursor: pointer;
+}
+.editButton {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 2px;
+    bottom: 17px;
+}
+#thirdSection {
+    font-size: 17px;
+    text-align: center;
+    color: rgb(61, 20, 100);
+    background-color: rgb(198, 225, 236, 0.2);
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;   
+    user-select: none;   
+}
+p {
+    margin: 0;
+    padding: 0.2rem;
+    display: block;
+}
